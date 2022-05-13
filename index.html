@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Suprematism</title>
+  <style media="screen">
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 1440px;
+      background: #E8DDD1;
+      margin: 0 auto;
+      padding: 0;
+    }
+    * {
+      margin: 0 auto;
+    }
+    .suprematism {
+      margin-top: 300px;
+      position: relative;
+      margin: 0 auto;
+      width: 1440px;
+      height: 1440px;
+    }
+    .suprematism1 {
+      position: absolute;
+      margin: 0 auto;
+      top: 100px;
+      margin-left: calc(50% - 400px);
+      animation: rotate 7s linear infinite;
+    }
+    .suprematism2 {
+      position: absolute;
+      margin: 0 auto;
+      top: 80px;
+      margin-left: calc(50% - 600px);
+      animation: rotate 7s linear infinite;
+    }
+    .suprematismpoligons {
+      position: absolute;
+      margin: 0 auto;
+      top: 700px;
+      margin-left: 950px;
+      z-index: 5;
+    }
+    .square {
+      position: relative;
+      top: 70px;
+      margin: 0 auto;
+      width: 300px;
+      height: 300px;
+      background-color: #17232F;
+    }
+    .square:hover {
+      transition: .5s;
+      border-radius: 150px;
+    }
+    .redcircle {
+      position: absolute;
+      margin-left: calc(50% - 280px);
+      top: 300px;
+      width: 560px;
+      height: 560px;
+      background-color: #CA3F24;
+      border-radius: 350px;
+    }
+    .blackrectangle {
+      position: absolute;
+      margin-left: 300px;
+      top: 500px;
+      width: 780px;
+      height: 100px;
+      background-color: #000208;
+      z-index: -2;
+      animation: rotate 3s linear infinite;
+    }
+    .greyrectangle {
+      position: absolute;
+      margin-left: 300px;
+      top: 603px;
+      width: 815px;
+      height: 80px;
+      background-color: #BABFC3;
+      z-index: -3;
+      animation: rotate 3s linear infinite;
+    }
+    @keyframes rotate {
+      0% {transform: rotate(0deg);}
+      100% {transform: rotate(360deg);}
+    }
+  </style>
+</head>
+<body>
+  <!-- <div class="blackrectangle">
+    <div class="greyrectangle"></div>
+    <div class="redcircle">
+      <div class="square"></div>
+    </div>
+  </div> -->
+  <div class="suprematism1">
+    <img src="suprematism1.svg" alt="">
+  </div>
+  <div class="suprematism2">
+    <img src="suprematism2.svg" alt="">
+  </div>
+  <div class="suprematismpoligons">
+    <img src="suprematismpoligons.svg" alt="">
+  </div>
+  <div class="blackrectangle"></div>
+  <div class="greyrectangle"></div>
+  <div class="redcircle">
+    <div class="square"></div>
+  </div>
+  <!-- <div class="suprematism">
+    <div class="blackrectangle"></div>
+    <div class="greyrectangle"></div>
+    <div class="redcircle">
+      <div class="square"></div>
+    </div>
+  </div> -->
+  <!-- <div class="suprematism">
+    <div class="blackrectangle"></div>
+    <div class="greyrectangle">
+      <div class="redcircle">
+        <div class="square"></div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div class="redcircle">
+    <div class="square"></div>
+    <div class="blackrectangle"></div>
+    <div class="greyrectangle"></div>
+  </div> -->
+</body>
+</html>
